@@ -20,6 +20,7 @@ section.bg-top{
     background-image: url('/bg.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -35,6 +36,40 @@ section.bg-top{
     position: absolute;
     left: 0;
     top: 0;
-    background: rgba(0, 0, 0, 0.45);
+    background: rgba(120, 120, 120, 0.40);
     
+}
+
+.texto-bg{
+    display: inline-block;
+    color: white;
+    padding:140px 0;
+}
+
+section.chamada{
+    background-color: #0AA2C0;
+}
+
+section.chamada h2{
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+}
+
+section.sobre{
+    padding: 30px 0;
+}
+
+section.sobre .container .row > div{
+    height: 4px;
+    width: 40px;
+    display: inline-block;
+    position: relative;
+    background: #0AA2C0;
+    margin-left: 13px;
+}
+
+section.sobre h2{
+    color: #9e9e9e;
 }
